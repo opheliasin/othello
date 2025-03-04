@@ -14,7 +14,7 @@ and start the client with
 
 Here I specified the listening port and the webserver port as I ran into some issues when I don't do so.
 
-I am using Python 3.7 and Java 17.
+I am using Python 3.7 and Java 1.8.
 
 ## Concept  
 For each round, the player traverses through the entire game board. 
