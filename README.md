@@ -23,7 +23,7 @@ At each empty cell, the player checks all 8 directions to find an opponent's pie
 
 The algorithm used by this player is a greedy algorithm. After traversing the whole game board, the player will select the move (the cell to place the new piece) that can flip the most number of pieces at the time. 
 
-## Assumptions and Constraints
+## Constraints
 - In this implementation, we only used the strategy of finding the move that flips the most number of pieces.
 - I've tried implementing the approach "Limit the number of disks you flip over early in the game" specifieid in this [wikihow article](https://www.wikihow.com/Play-Othello), but it performed worse than the simple greedy approach.
 - If more time was available, I would like to explore implementing other algorithms mentioned in the article, like "Wait to place disks in spaces where your opponent can’t play". 
