@@ -6,11 +6,11 @@ By Ophelia Sin
 
 Invoke the game with 
 
-$ java -jar othello.jar [options]
+    $ java -jar othello.jar [options]
 
 and start the client with 
 
-$ python3 sdks/python/client.py 1337 localhost 
+    $ python3 sdks/python/client.py 1337 localhost 
 
 Here I specify the listening port and the webserver port as I have run into some issues when I don't specify them. 
 
