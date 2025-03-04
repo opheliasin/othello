@@ -19,7 +19,7 @@ I am using Python 3.7 and Java 17.
 ## Concept  
 For each round, the player traverses through the entire game board. 
 
-At each empty cell, the player checks all 8 directions to find an opponent's piece. If an opponent's piece is found in one direction, the player will keep traversing in the same direction to find its own piece. If it can find its own piece, it'll tally the number of pieces it can potentially flip if placing the piece in that empty cell. It'll then traverse another direction to see if it can flip more pieces under the same criteria. 
+At each empty cell, the player checks all 8 directions to find an opponent's piece. If an opponent's piece is found in one direction, the player will keep traversing in the same direction to find its own piece (until it gets to its own piece or an empty cell or goes out of bounds). If it can find its own piece, it'll tally the number of pieces it can potentially flip if placing the piece in that empty cell. It'll then traverse another direction to see if it can flip more pieces under the same criteria. 
 
 The algorithm used by this player is a greedy algorithm. After traversing the whole game board, the player will select the move (the cell to place the new piece) that can flip the most number of pieces at the time. 
 
